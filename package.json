@@ -8,7 +8,6 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "lint": "eslint . --ext .json --ext .md",
     "pretest": "npm run lint",
     "test": "echo \"No tests\"",
     "start": "react-scripts start",
@@ -29,10 +28,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-plugin-json": "^1.4.0",
-    "eslint-plugin-markdown": "^1.0.0"
   }
 }
